@@ -33,7 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 90vw;
+    width: 80vw;
     max-width: 37.5em;
     margin: auto;
     padding: 3em 1.8em;
