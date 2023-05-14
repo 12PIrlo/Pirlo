@@ -23,9 +23,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(#16100d 50%, #211a18 50%);
+    background: linear-gradient(#0d1016 50%, #181921 50%);
     letter-spacing: -0.02rem;
-    overflow: hidden;
+    overflow: ;
     height: 100vh;
 }
 
@@ -39,7 +39,8 @@ body{
     padding: 3em 1.8em;
     border-radius: 0.6em;
     box-shadow: 1.2em 2em 3em rgba(255, 255, 255, 0.2);
-    background-color: #ac634a;
+    background-color: #040427;
+    color: #7a85aa;
 }
 
 .c-main{
@@ -125,10 +126,29 @@ button:hover{
 }
 
 .footer{
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     opacity: 50%;
 }
+
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #2b3141; 
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(24, 27, 61); 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(36, 40, 65); 
+  }
