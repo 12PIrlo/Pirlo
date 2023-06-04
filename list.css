@@ -92,3 +92,50 @@ button{
    background-color: black; 
    color: white; 
  }
+
+.li-hp{
+    list-style: none;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+
+  #open-btn{
+    letter-spacing: 0.2em;
+  }
+  
+  #popup-content {
+    background-color: #fff;
+    width: 75%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.6em;
+  }
+
+  #close-btn {
+    position: absolute;
+    width: 75%;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #close-btn:hover{
+    color: gray;
+  }
