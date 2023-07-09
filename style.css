@@ -58,7 +58,7 @@ body{
     font-size: 20px;
     line-height: 0.0025em;
     display: flex;
-    gap: 0.5em;
+    gap: em;
 }
 
 .c-pirlo{
